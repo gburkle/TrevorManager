@@ -1,0 +1,2 @@
+# TrevorManager
+TrevorSpray wrapper. 

@@ -1,0 +1,36 @@
+## Trevor Manager Configuration File
+## Protiviti 2025
+#
+
+# Target endpoint URL
+target: https://login.windows.net/16532572-d567-4d67-8727-f12f7bb6aed3/oauth2/token
+
+# Emails File
+emails: emails.txt
+
+# Passwords File
+passwords: passwords.txt
+
+# TrevorSpray Module
+module: msol
+# msol
+# adfs
+# owa
+# okta
+# anyconnect
+
+# Delay (In seconds)
+delay: 1
+
+# Jitter (In Seconds)
+jitter: 1
+
+# Ignore lockouts
+lockout: Y 
+
+# Proxy (Y/N)
+proxy: n
+
+# Not sure this is necessary
+# Proxy type SSH or socks, if no proxy set to null
+type: null
